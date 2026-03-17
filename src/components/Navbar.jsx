@@ -1,7 +1,6 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      {/* Logo Section */}
       <div className="navbar-logo">
         <img 
           src="https://p7.hiclipart.com/preview/813/542/320/swami-vivekananda-hinduism-vedanta-ramakrishna-mission-national-youth-day-hinduism.jpg" 
@@ -13,8 +12,6 @@ function Navbar() {
           <p className="logo-subtitle">UNIVERSITY, JAIPUR</p>
         </div>
       </div>
-
-      {/* Navigation Links */}
       <ul className="nav-links">
         <li><a href="#about">About Us</a></li>
         <li><a href="#admissions">Admissions</a></li>
@@ -22,8 +19,6 @@ function Navbar() {
         <li><a href="#placements">Placements</a></li>
         <li><a href="#research">Research</a></li>
       </ul>
-
-      {/* Apply Button */}
       <button className="apply-btn">Apply Now</button>
     </nav>
   );

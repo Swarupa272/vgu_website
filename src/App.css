@@ -1,6 +1,6 @@
 /* Navbar Container */
 .navbar {
-  background-color: rgb(250, 132, 6);
+  background-color: rgb(244, 51, 22);
   padding: 12px 40px;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
     sans-serif;
 }
 
-/* ===== LOGO SECTION ===== */
+/*LOGO SECTION*/
 .navbar-logo {
   display: flex;
   align-items: center;
