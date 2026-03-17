@@ -102,7 +102,6 @@ export default function CampusHighlights() {
 
   return (
     <div className="campus-highlights-container">
-      {/* Header Section */}
       <div className="highlights-header">
         <div className="header-label">
           <span className="label-icon">✨</span>
@@ -116,14 +115,11 @@ export default function CampusHighlights() {
         </p>
       </div>
 
-      {/* Highlights Grid */}
       <div className="highlights-grid">
         {highlightsData.map((item) => (
           <div key={item.id} className="highlight-card">
-            {/* Card Header */}
             <div className="card-header">
               <div className="card-icon">
-                {/* If image exists, show it. Otherwise show emoji */}
                 {item.image ? (
                   <img 
                     src={item.image} 
@@ -138,15 +134,12 @@ export default function CampusHighlights() {
                 {item.badge}
               </span>
             </div>
-
-            {/* Card Body */}
             <div className="card-body">
               <h3 className="card-name">{item.name}</h3>
               <p className="card-role">{item.role}</p>
               <p className="card-description">{item.description}</p>
             </div>
 
-            {/* Card Footer */}
             <div className="card-footer">
               {item.rating && (
                 <div className="card-rating">

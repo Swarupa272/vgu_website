@@ -1,5 +1,4 @@
 export default function CareerStats() {
-  // Data for all statistics cards
   const statsData = [
     {
       id: 1,
@@ -43,10 +42,7 @@ export default function CareerStats() {
 
   return (
     <div className="career-stats-container">
-      {/* Main Content Section */}
       <div className="main-content">
-        
-        {/* Left Side - Text Section */}
         <div className="left-section">
           <p className="small-label">● PLACEMENT REPORT 2024</p>
           <h1 className="main-heading">

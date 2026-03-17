@@ -78,7 +78,6 @@ export default function LifeAtVGU() {
         </p>
       </div>
 
-      {/* Events Grid */}
       <div className="events-grid">
         {eventsData.map((event) => (
           <div
@@ -88,15 +87,11 @@ export default function LifeAtVGU() {
               backgroundImage: `url(${event.image})`,
             }}
           >
-            {/* Dark overlay gradient */}
             <div className="event-overlay"></div>
 
-            {/* Date badge at top-left */}
             <div className="event-date-badge">
               {event.date}
             </div>
-
-            {/* Title at bottom */}
             <div className="event-title-text">
               {event.title}
             </div>
