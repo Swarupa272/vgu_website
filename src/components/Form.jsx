@@ -1,6 +1,4 @@
-import { useState } from "react";
-
-
+import { useState } from "react";`1`
 function Form() {
   const [form, setForm] = useState({
     firstName: "",
