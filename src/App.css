@@ -1,6 +1,6 @@
 .navbar {
   background-color:white;
-  padding: 12px 40px;
+  padding: 8px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,43 +16,82 @@
 .navbar-logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 1px;
+  background: linear-gradient(135deg, #850707 0%, #ff3333 100%);
+  padding: 8px 12px;
+  border-radius: 8px;
   flex-shrink: 0;
 }
-
 .logo-image {
-  width: 60px;
-  height: 60px;
-  border-radius: 12px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
   object-fit: cover;
-  background: linear-gradient(135deg, #cc0000 0%, #ff3333 100%);
-  padding: 4px;
-  box-shadow: 0 2px 8px rgba(204, 0, 0, 0.2);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 
 .logo-text {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 2px;
 }
 
 .logo-title {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 900;
-  color: #001f3f;
+  color: #ffffff;
   margin: 0;
   letter-spacing: 0.8px;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .logo-subtitle {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
-  color: #00030e;
+  color: #ffffff;
   margin: 0;
   letter-spacing: 0.6px;
+  line-height: 1;
 }
 
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #cc0000;
+}
+
+.apply-btn {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 8px 2px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+}
+
+.apply-btn:hover {
+  background-color: #ff3333;
+}
 .nav-links {
   display: flex;
   list-style: none;
